@@ -1,0 +1,117 @@
+{
+  "summary": {
+    "runs": 10,
+    "avg_calls": 3.0,
+    "avg_seconds": 26.784000000000002,
+    "tokens": 43843,
+    "positive_share": 0.9,
+    "saved": 0
+  },
+  "details": [
+    {
+      "kind": "ask",
+      "run_id": "5b9b28b37f53",
+      "sources": [
+        "Патерн Outbox для надійної доставки подій#Вступ",
+        "Патерн Outbox для надійної доставки подій#Гарантії доставки та дедуплікація",
+        "Патерн Outbox для надійної доставки подій#Механізм роботи Transactional Outbox"
+      ],
+      "invalid_citations": [
+        "Патерნ Outbox для надійної доставки подій#Гарантії доставки та дедуплікація"
+      ],
+      "rated": 0
+    },
+    {
+      "kind": "ask",
+      "run_id": "5d4299c20ed6",
+      "sources": [
+        "Модульний моноліт платформи SmartLease#Вступ",
+        "Модульний моноліт платформи SmartLease#Принципи модульності та межі контекстів",
+        "Подієво-орієнтована інтеграція модулів#Вступ"
+      ],
+      "invalid_citations": [],
+      "rated": 1
+    },
+    {
+      "kind": "ask",
+      "run_id": "0ae71b3349fa",
+      "sources": [
+        "Гарантійний депозит (Security Deposit)#Порядок списання та повернення",
+        "Гарантійний депозит (Security Deposit)#Вступ",
+        "Бізнес-інваріанти розрахунку та виставлення інвойсів#Вступ"
+      ],
+      "invalid_citations": [],
+      "rated": 1
+    },
+    {
+      "kind": "ask",
+      "run_id": "e3d4bfb3efc9",
+      "sources": [
+        "Регламенти обслуговування та нормативи SLA#Часові нормативи реакції за категоріями",
+        "Регламенти обслуговування та нормативи SLA#Вступ",
+        "Заявка на обслуговування (Maintenance Request)#Вступ"
+      ],
+      "invalid_citations": [],
+      "rated": 1
+    },
+    {
+      "kind": "ask",
+      "run_id": "6ca1e5043aad",
+      "sources": [
+        "Мультитенантність та ізоляція клієнтських даних#Аутентифікація та авторизація"
+      ],
+      "invalid_citations": [],
+      "rated": 1
+    },
+    {
+      "kind": "team",
+      "run_id": "71aaa0131113",
+      "jira_key": "SL-142",
+      "stop_reason": "approved",
+      "drafts": 1,
+      "has_http": true,
+      "has_pw": true,
+      "rated": 1
+    },
+    {
+      "kind": "team",
+      "run_id": "47c55a54529e",
+      "jira_key": "SL-148",
+      "stop_reason": "approved",
+      "drafts": 2,
+      "has_http": true,
+      "has_pw": true,
+      "rated": 1
+    },
+    {
+      "kind": "team",
+      "run_id": "1abfe683b869",
+      "jira_key": "SL-151",
+      "stop_reason": "needs_clarification",
+      "drafts": 0,
+      "has_http": false,
+      "has_pw": false,
+      "rated": 1
+    },
+    {
+      "kind": "team",
+      "run_id": "9655cebbacd1",
+      "jira_key": "SL-155",
+      "stop_reason": "approved",
+      "drafts": 1,
+      "has_http": true,
+      "has_pw": true,
+      "rated": 1
+    },
+    {
+      "kind": "team",
+      "run_id": "d2b922af9615",
+      "jira_key": "SL-160",
+      "stop_reason": "approved",
+      "drafts": 1,
+      "has_http": true,
+      "has_pw": true,
+      "rated": 1
+    }
+  ]
+}

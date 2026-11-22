@@ -1,0 +1,31 @@
+[project]
+name = "lab04-workbench"
+version = "0.1.0"
+description = "SmartLease developer workbench integrating MAS workflow (Lab 3) and Knowledge Base (Lab 2)"
+readme = "README.md"
+authors = [
+    { name = "Artem Chuvaiev", email = "artem.chuvaiev@nure.ua" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "chromadb>=1.5.9",
+    "google-adk>=2.12.0,<3.0.0",
+    "pandas>=3.1.1",
+    "python-dotenv>=1.2.4",
+    "python-frontmatter>=1.3.0",
+    "streamlit>=1.67.0",
+]
+
+[dependency-groups]
+dev = [
+    "playwright>=1.65.2",
+    "pytest>=9.2.0",
+    "pytest-asyncio>=1.5.0",
+]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
+python_files = ["test_*.py"]
+asyncio_mode = "auto"
+asyncio_default_fixture_loop_scope = "function"
