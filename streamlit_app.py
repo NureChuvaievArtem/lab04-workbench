@@ -113,12 +113,13 @@ with tab_team:
 
     if submitted and request.strip():
         state.team_runs += 1
-        with st.status("Команда агентів працює…", expanded=True) as status:
+        with st.status("Команда агентів працює (орієнтовно 20–45 с)…", expanded=True) as status:
             def show_step(event: dict) -> None:
                 base = event["node"].split("@")[0]
                 if base in NODE_LABELS:
                     route = f" → {event['route']}" if event["route"] else ""
-                    status.write(f"{NODE_LABELS[base]}{route}")
+                    elapsed = f"[{event['t']:.1f} с] " if "t" in event else ""
+                    status.write(f"{elapsed}{NODE_LABELS[base]}{route}")
 
             state.last_run = service.run_team(request.strip(), on_event=show_step)
             status.update(label="Готово", state="complete", expanded=False)
@@ -190,6 +191,9 @@ with tab_history:
     if rows:
         frame = pd.DataFrame(rows)
         st.dataframe(frame, hide_index=True)
+        st.caption(
+            "Примітка: колонка saved_path заповнюється після підтвердження збереження в Obsidian (Inbox)."
+        )
         st.download_button(
             "Експорт CSV",
             frame.to_csv(index=False),
