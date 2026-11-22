@@ -1,5 +1,14 @@
 # WORKBENCH-CARD: Робоче місце Full-Stack розробника SmartLease
 
+## Ідентифікація
+- **Назва:** `smartlease-workbench`
+- **Версія:** `1.0.0`
+- **Дата:** `22.11.2026`
+- **Автор:** Чуваєв Артем Олександрович, група ПЗПІ-23-3, e-mail: `artem.chuvaiev@nure.ua`
+- **Ліцензія:** MIT
+- **Репозиторій GitHub:** https://github.com/NureChuvaievArtem/lab04-workbench
+- **Посилання на архів:** https://drive.google.com/drive/folders/1XZRlSZ8jfVjM3mRx2h5Z_GvgesiaxcsG?usp=drive_link
+
 ## 1. Мета й аудиторія
 - **Етап ЖЦ ПЗ:** 4 — Конструювання ПЗ (*Implementation / Construction*).
 - **Роль користувача:** Full-Stack розробник платформи оренди нерухомості **SmartLease** (.NET 10 Modular Monolith + PostgreSQL 17 + React/TypeScript).
